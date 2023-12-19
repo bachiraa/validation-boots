@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validation-Bootstrap</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pooper.js/2.9.2/umd/pooper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    
+
+  
+    <section id="head">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+             <a class="navbar-brand" href="#banner">
+                <span style="font-weight: bold; font-style: italic; text-decoration:underline;">
+                Euphoria
+            <p style="font-size: 10px; font-weight: 100; margin: 0 30px; text-decoration: none; ">Keep it classy</p>
+              </span>
+                
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="detail.html">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="women.html" style="font-weight: bold;">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Combas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Joggers</a>
+              </li>
+            </ul>
+            <form class="form-inline navbar-search">
+              <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Recherche" style="background-color: #ecebeb;">
+            </form>
+            <a class="nav-link navbar-icon" href="detail.html" style="color: #ccc; margin: 15px;">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+          </div>
+        </nav>
+      </section>
+
+
+      <section id="banner">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 left-part mt-5">
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 d-flex">
+                        <h6>Filter</h6>
+                        <a href="" style="color: #000;"> <i class="fas fa-bars" style="margin: 0 150px;"></i></a>
+                  </div>
+
+                  <div class="col-lg-12 col-md-6 d-flex mt-4">
+                    <p>Tops...</p>
+                    <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+              </div>
+              <div class="col-lg-8 col-md-6 d-flex">
+                <p>Print...</p>
+                <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+          </div>
+          <div class="col-lg-8 col-md-6 d-flex">
+            <p>Plain...</p>
+            <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+      </div>
+      <div class="col-lg-8 col-md-6 d-flex">
+        <p>Kurti...</p>
+        <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+  </div>
+  <div class="col-lg-8 col-md-6 d-flex">
+    <p>Boxe...</p>
+    <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+</div>
+<div class="col-lg-8 col-md-6 d-flex">
+    <p>Full.....</p>
+    <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+</div>
+<div class="col-lg-8 col-md-6 d-flex">
+<p>Jogg...</p>
+<a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+</div>
+<div class="col-lg-8 col-md-6 d-flex">
+<p>Payj.....</p>
+<a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+</div>
+<div class="col-lg-8 col-md-6 d-flex">
+<p>Jeans...</p>
+<a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+</div>
+                </div>
+
+                
+                <div class="row mt-5">
+
+                    <div class="col-lg-12 col-md-6 d-flex mt-5">
+                        <h6>Price</h6>
+                        <a href="" style="color: #000;"> <i class="fas fa-angle-up" style="margin: 0 150px;"></i></a>
+                  </div>
+                  <div class="col-lg-12 col-md-6 d-flex justify-content-center mt-4"
+                   style="width: 180px; height: 3px; background-color: purple; margin-left: 5%;">
+                    <div class="circle" style="margin-left: 15%;"></div>
+                   <div class="circle"></div>
+                  </div>
+                  <div class="col-lg-8 col-md-6 d-flex mt-4">
+                  <div class="number-box" style="margin-left: 15%;">
+                    <p class="text-center">123</p>
+                </div>
+                <div class="number-box">
+                    <p class="text-center">123</p>
+                </div>
+            </div>
+
+            </div>
+
+                <div class="row mt-5">
+                    <div class="col-lg-12 col-md-6 d-flex mt-5">
+                        <h6>Color</h6>
+                        <a href="" style="color: #000;"> <i class="fas fa-angle-up" style="margin: 0 150px;"></i></a>
+                  </div>
+                  <div class="col-lg-12 col-md-6 color d-flex justify-content-left mt-3 mb-4">
+                    <a href="" class="color1" style="background-color: purple; text-decoration: none;">
+                       <p class="text-center mt-4">pur</p>
+                     </a>
+                     <a href="" class="color2" style="background-color: black; text-decoration: none;">
+                       <p class="text-center mt-4">bla</p>
+                     </a>
+                     <a href="" class="color2" style="background-color: red; text-decoration: none;">
+                       <p class="text-center mt-4">red</p>
+                     </a>
+                     <a href="" class="color2" style="background-color: orange; text-decoration: none;">
+                       <p class="text-center mt-4">ora</p>
+                     </a>
+                   </div> 
+               
+                   <div class="col-lg-12 col-md-6 color d-flex justify-content-left mt-3 mb-4">
+                    <a href="" class="color1" style="background-color: navy; text-decoration: none;">
+                        <p class="text-center mt-4">nav</p>
+                      </a>
+                      <a href="" class="color2" style="background-color: white; text-decoration: none;">
+                        <p class="text-center mt-4">whi</p>
+                      </a>
+                      <a href="" class="color2" style="background-color: brown; text-decoration: none;">
+                        <p class="text-center mt-4">bro</p>
+                      </a>
+                      <a href="" class="color2" style="background-color: green; text-decoration: none;">
+                        <p class="text-center mt-4">gre</p>
+                      </a>
+                   </div> 
+
+                   <div class="col-lg-12 col-md-6 color d-flex justify-content-left mt-3 mb-4">
+                    <a href="" class="color1" style="background-color: yellow; text-decoration: none;">
+                        <p class="text-center mt-4">yel</p>
+                      </a>
+                      <a href="" class="color2" style="background-color: grey; text-decoration: none;">
+                        <p class="text-center mt-4">gre</p>
+                      </a>
+                      <a href="" class="color2" style="background-color: pink; text-decoration: none;">
+                        <p class="text-center mt-4">pin</p>
+                      </a>
+                      <a href="" class="color2" style="background-color: blue; text-decoration: none;">
+                        <p class="text-center mt-4">blu</p>
+                      </a>
+                   </div> 
+
+                </div>
+
+
+              <div class="row mt-5">
+                    <div class="col-lg-12 col-md-6 d-flex mt-5">
+                        <h6>Size</h6>
+                        <a href="" style="color: #000;"> <i class="fas fa-angle-up" style="margin: 0 150px;"></i></a>
+                  </div>
+
+                  <div class="col-lg-12 col-md-6 size d-flex justify-content-left mt-3 mb-0">
+                    <div class="size1">
+                        <p class="text-center">XXS</p>
+                      </div>
+                      <div class="size2">
+                        <p class="text-center">XL</p>
+                      </div>
+                      <div class="size2">
+                        <p class="text-center">XS</p>
+                      </div>
+                   </div> 
+
+                   <div class="col-lg-12 col-md-6 size d-flex justify-content-left mt-2 mb-0">
+                    <div class="size1">
+                        <p class="text-center">S</p>
+                      </div>
+                      <div class="size2">
+                        <p class="text-center">M</p>
+                      </div>
+                      <div class="size2">
+                        <p class="text-center">L</p>
+                      </div>
+                   </div>
+
+                   <div class="col-lg-12 col-md-6 size d-flex justify-content-left mt-2 mb-0">
+                    <div class="size1">
+                        <p class="text-center">XXL</p>
+                      </div>
+                      <div class="size2">
+                        <p class="text-center">3XL</p>
+                      </div>
+                      <div class="size2">
+                        <p class="text-center">4XL</p>
+                      </div>
+                   </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-lg-8 col-md-6 d-flex mt-5">
+                        <h6>Dress</h6>
+                        <a href="" style="color: #000;"> <i class="fas fa-angle-up" style="margin: 0 150px;"></i></a>
+                  </div>
+                    <div class="col-lg-8 col-md-6 d-flex mt-4">
+                        <p>Class...</p>
+                        <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 d-flex">
+                    <p>Cusu...</p>
+                    <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+              </div>
+              <div class="col-lg-8 col-md-6 d-flex">
+                <p>Busin...</p>
+                <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+          </div>
+          <div class="col-lg-8 col-md-6 d-flex">
+            <p>Sport...</p>
+            <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+      </div>
+      <div class="col-lg-8 col-md-6 d-flex">
+        <p>Elega...</p>
+        <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+    </div>
+    <div class="col-lg-8 col-md-6 d-flex">
+        <p>Form...</p>
+        <a href="" style="color: #ccc;"> <i class="fas fa-angle-right" style="margin: 0 150px;"></i></a>
+    </div>
+                </div>
+              </div>
+          
+
+
+
+              <div class="col-lg-9 col-md-6 right-part mt-5">
+                <div class="row">
+                    <div class="col-lg-9 mt-4">
+                        <h2 style="font-size: 20px; font-weight: 200;">Women's Clothing</h2>
+                         </div>
+      
+      <div class="col-lg-3 mt-4">
+         <h3 style="font-size: 20px; font-weight: 200;">
+             <a href="#" style="text-decoration: none; margin: 20px;">New</a>Recommanded</h3>
+      </div>
+                </div>
+
+                <div class="row mt-5">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image-container">
+                      <img src="images/rect1.png" alt="Image 1">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">Black Sweatshirt...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">Jhanvi's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$123.00</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4  col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec2.png" alt="Image 2">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">White T-shit...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">Helen's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$11.00</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4  col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec3.png" alt="Image 3">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">Levender Hoodie...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">Nike's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$119.00</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row mt-5">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec4.png" alt="Image 1">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">Leaves Pattern...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">Paypal's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$77.00</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4  col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec5.png" alt="Image 2">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">White Graphic...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">woden's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$29.00</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4  col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec6.png" alt="Image 3">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">Black Shorts...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">MM's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$37.00</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row mt-5">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec7.png" alt="Image 1">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">Barboreal Gray...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">Priya's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$77.00</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4  col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec8.png" alt="Image 2">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">Yellow Sweatshirt...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">wodens Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$29.00</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4  col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec9.png" alt="Image 3">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">Flower Pattern...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">MM's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$37.00</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row mt-5">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec10.png" alt="Image 1">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">I Don't Graphic...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">Nisargi's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$77.00</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4  col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec11.png" alt="Image 2">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">Blue Flower...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">Mellon's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$29.00</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4  col-md-6">
+                    <div class="image-container">
+                      <img src="images/rec12.png" alt="Image 3">
+                      <div class="icon-overlay">
+                        <a href="#" style="color: black;">  <i class="far fa-heart icons"></i></a>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 18px;">Line Pattern...</h5>
+                      <div class="card-text d-flex">
+                          <p class="card-text">AS's Brand</p>
+                          <a href="" style="float: right;margin: 0 50px; text-decoration: none;
+                           background-color: #ecebeb; height: 25px;" >$37.00</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+               
+
+      </section>
+
+
+      <section id="text">
+        <div class="container text">
+<h1>Clothing for Women Online in India</h2>
+<h2 class="mt-3">Reexplore Women's clothing Collection Online on Euphoria</h3>
+<p class="mt-3">Women's Clothing: Are you searching for the best website to buy Clothing for Women online in India? Well,
+   your search for the coolest and most stylish womens clothing ends here. From trendy Casual Womens Wear 
+   Online shopping to premium quality cotton women's apparel,
+   Euphoria has closet of Women Collection covered with the latest and best designs of Women's Clothing Online.</p>
+
+   <p>Our collection of clothes for women will make you the trendsetter with an iconic resemblance of choice in Womens Wear. </p>
+   
+   <h2 class="mt-3">One-Stop Destination to Shop Every Clothing for Women: Euphoria</h2>
+   <p class="mt-3">Today, Clothing for Women is gaining more popularity above all. This is because gone are the days when women
+     were used to carrying uncomfortable fashion. Today, a lady looks prettier when she is in Casual Womens Wear
+      which is a comfortable outfit. Concerning this,
+     Euphoria has a big fat range of Stylish Women's Clothing that would make her the winner wherever she goes. </p>
+
+    <p>Our collection of clothes for women will make you the trendsetter with an iconic resemblance
+       of choice in Womens Wear. It is quite evident to say that there are very few Womens Clothing
+        online stores where you can buy Western Wear for Women comprising
+       the premium material and elegant design that you are always seeking for. Basically, </p>
+
+      <a href="#" class="mt-5">See more</a>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="price">
+        <div class="container price">
+
+          <h1>Buy Women's Clothing at Best Price</h1>
+
+          
+  <table class="table mt-5">
+    <thead>
+      <tr>
+        <th scope="col-lg-6" style="font-size: 20px; color: #000;">Women's Clothing</th>
+        <th scope="col-lg-6" style="font-size: 20px; color: #000;">Best Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Pick Any 4- Womens Plain T-shirt Combo</td>
+        <td>$1099</td>
+      </tr>
+      <tr>
+        <td>Pick Any 4- Plain Womens Boxer Combo</td>
+        <td>$1099</td>
+      </tr>
+      <tr>
+        <td>Pick Any 4 - Women Plain Full Sleeve T-shirt Combo</td>
+        <td>$1399</td>
+      </tr>
+      <tr>
+        <td>Multicolor Checkered Long Casual Shirts for Women</td>
+        <td>$499</td>
+      </tr>
+      <tr>
+        <td>Pick Any 2: Plain Boxy Casual Shirts for Women Combo</td>
+        <td>$799</td>
+      </tr>
+      <tr>
+        <td>Blue Floral Anarkali Kurti</td>
+        <td>$599</td>
+      </tr>
+      <tr>
+        <td>Jade Black Narrow Cut Flexible Women Jeggings</td>
+        <td>$998</td>
+      </tr>
+      <tr>
+        <td>Mustard-yellow Solid Straight-Fit Women Pant</td>
+        <td>$499</td>
+      </tr>
+      <tr>
+        <td>Women Pants Combo - Pick Any 2</td>
+        <td>$800</td>
+      </tr>
+      <tr>
+        <td>Pista Green Solid Boxy Casual Shirts for Women</td>
+        <td>$499</td>
+      </tr>
+      <tr>
+        <td>Plain Burgundy Womens Boxer</td>
+        <td>$349</td>
+      </tr>
+      <tr>
+        <td>Striped Front Tie Casual Shirts for Women</td>
+        <td>$449</td>
+      </tr>
+    </tbody>
+  </table>
+        </div>
+      </section>
+
+
+      <section id="foot">
+        <div class="container foot">
+          <div class="row">
+            <div class="col-lg-3">
+              <h2 class="mt-5">Need Help</h2>
+              <p class="mt-4">Contact Us</p>
+              <p>Trock Older</p>
+              <p>Returns and Refunds</p>
+              <p>FaQ's</p>
+              <p>Career</p>
+            </div>
+
+            <div class="col-lg-3">
+              <h2 class="mt-5">Company</h2>
+              <p>About Us</p>
+              <p>Euphoria Blog</p>
+              <p>Euphoriaston</p>
+              <p>Collaboration</p>
+              <p>Media</p>
+            </div>
+
+            <div class="col-lg-3">
+              <h2 class="mt-5">More Info</h2>
+              <p>Terms and Conditions</p>
+              <p>Privacing Policy</p>
+              <p>Shipping Policy</p>
+              <p>Sitemap</p>
+            </div>
+
+            <div class="col-lg-3">
+              <h2 class="mt-5">Location</h2>
+              <p>support@euphoria.in</p>
+              <p>Eklingpura Chouraha, Ahmedabad Main Rood</p>
+              <p>NH-8 Near Mahadev Hotel...</p>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-lg-8 lien mt-5">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+
+            <div class="col-lg-4">
+              <h2>Download The App</h2>
+
+              <div class="play d-flex">
+                <div class="prim d-flex mt-4">
+                  <img src="images/google store" alt="">
+                <p>Android App</p>
+                </div>
+
+                <div class="second d-flex mt-4">
+                  <i class="fas fa-mobile"></i>
+                  <p>Android App</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-lg-10 mt-5">
+              <h2>Popular Categories</h2>
+            </div>
+
+            <div class="col-lg-2 mt-5">
+             <a href="" style="color: #fff;"> <i class="fas fa-angle-down"></i> </a>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-lg-12 text-center">
+              <p>Copyright @ 2023 Euphoria Folks Pvt Ldt. All right reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
