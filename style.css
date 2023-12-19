@@ -132,7 +132,7 @@ td, th{
 
  /*BANNER*/
 #banner{
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
   .image-container {
@@ -150,7 +150,7 @@ td, th{
     border-radius: 100%;
     color: #fff;
   }
-  @media screen and (max-width: 600px)
+  @media screen and (max-width: 767px)
   {
     .icon {
         position: absolute;
@@ -159,6 +159,25 @@ td, th{
         transform: translate(0, -50%);
         border-radius: 100%;
         color: #fff;
+      }
+      .circle {
+        width: 15px;
+        height: 15px;
+        background-color: #e998e9;
+        border-radius: 50%;
+        display: flex;
+        margin-right: 10%;
+        margin-top: -5px;
+      }
+      .number-box {
+        border: 1px solid #000;
+        padding: 10px;
+        margin-left: 5%;
+        width: 50px;
+        height: 20px;
+      }
+      .number-box p{
+        margin-top: -10px;
       }
   }
 
@@ -180,28 +199,6 @@ td, th{
   }
   .number-box p{
     margin-top: -10px;
-  }
-  @media screen and (max-width: 600px)
-  {
-    .circle {
-        width: 15px;
-        height: 15px;
-        background-color: #e998e9;
-        border-radius: 50%;
-        display: flex;
-        margin-right: 10%;
-        margin-top: -5px;
-      }
-      .number-box {
-        border: 1px solid #000;
-        padding: 10px;
-        margin-left: 5%;
-        width: 50px;
-        height: 20px;
-      }
-      .number-box p{
-        margin-top: -10px;
-      }
   }
 
   .color{
