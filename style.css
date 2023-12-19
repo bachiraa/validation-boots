@@ -286,10 +286,28 @@ td, th{
     height: 15%;
 margin-bottom: 20px;
   }
+  .ico1{
+    margin: 0 15%;
+     color: #000
+  }
+  .ico2{
+    margin: 20% 15%;
+ background-color: #000;
+  width: 15px;
+   height: 15px;
+   border-radius: 20px;
+    color: #fff;
+  }
 
   @media screen and (max-width: 600px) {
     .gau img{
       width: 20%;
+    }
+    .ico1{
+      margin: 0 8%;
+    }
+    .ico2{
+      margin: 10% 8%;
     }
   }
 
