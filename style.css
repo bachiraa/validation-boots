@@ -417,6 +417,7 @@ margin-bottom: 20px;
     align-items: center;
     justify-content: center;
     color: #fff;
+    border-radius: 10px;
   }
 
   .video-icon {
